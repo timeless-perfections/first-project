@@ -1,18 +1,18 @@
 import java.util.Scanner;
 public class vatAmount {
     public static void main(String[] args) {
-        double amount, vatRate = 0.18, vatMount,amountWithvat;
-        Scanner imput = new Scanner(System.in);
+        double amount, vatRate = 0.18, vatAmount,amountWithVat;
+        Scanner input = new Scanner(System.in);
         System.out.println("Enter amount: ");
-        amount = imput.nextDouble();
+        amount = input.nextDouble();
 
-        vatMount = amount * vatRate;
-        amountWithvat = amount + vatMount;
+        vatAmount = amount * vatRate;
+        amountWithVat = amount + vatAmount;
 
         System.out.println("VAT you keep" + amount);
         System.out.println("Vat rate" + vatRate);
-        System.out.println("Vat mount" + vatMount);
-        System.out.println("Amount with vat"+ amountWithvat);
+        System.out.println("Vat mount" + vatAmount);
+        System.out.println("Amount with vat"+ amountWithVat);
 
 
 
