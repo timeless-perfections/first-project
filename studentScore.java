@@ -31,7 +31,7 @@ public class studentScore {
         double result = total / 6;
         System.out.println("Average" + result);
 
-        //kosul ifadesi
+        //Condition expression
         String Situation  = (result >= 60) ? "congratulations you made it ": "Sorry, you failed ";
         System.out.println("Success status: "+Situation);
 
