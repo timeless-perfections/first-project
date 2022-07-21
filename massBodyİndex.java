@@ -10,7 +10,7 @@ public class massBodyİndex {
 
         System.out.println("Type Your Weight");
         weight =input.nextDouble();
-        index = weight/size * size
+        index = weight/size * size ;
         System.out.println("Your Body Mass Index : "+ index);
 
         if (index < 1.8){
